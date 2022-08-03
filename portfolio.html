@@ -13,7 +13,7 @@
     </head>
 <body>
     <header class="page-header">
-    <div class="container">
+    <div class="container border centered">
         <nav class="main-nav">
         <a lang="en" href="./index.html" class="header-logo"><span class="blue-logo">Web</span>Studio</a>
           <ul class="header-list list">
@@ -21,12 +21,22 @@
             <li class="header-item"><a href="./portfolio.html" class="header-link current">Портфолио</a></li>
             <li class="header-item"><a href="" class="header-link">Контакты</a></li>
           </ul>
-          <ul class="list">
-            <li class="header-item"><a href="mailto:info@devstudio.com" class="header-mail link">info@devstudio.com</a></li>
-            <li class="header-item"><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
+        </nav> 
+        <ul class="list contacts">
+            <li class="header-item"><a href="mailto:info@devstudio.com" class="header-mail link">
+               <svg class="contacts-icon" width="16" height="12"> 
+               <use href="./img/icons.svg#icon-envelope"></use>   
+              </svg> 
+              info@devstudio.com
+          </a>
+          </li>
+            <li class="header-item"><a href="tel:+380961111111" class="header-tel link">
+               <svg class="contacts-icon" width="10" height="16">
+               <use href="./img/icons.svg#icon-smartphone"></use>
+               </svg> 
+              +38 096 111 11 11</a></li>
         </ul>
-         </nav> 
-    </div>
+        </div>
       </header>
 
       <main>
@@ -43,6 +53,7 @@
 
                 <ul class="list-blocks list">
                     <li class="item-blocks"> 
+                    <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img1.jpg"
                         alt="Фото наших специалистов"
@@ -52,8 +63,10 @@
                         <h2 class="blocks-subtitle">Технокряк</h2>
                         <p class="blocks-text">Веб-сайт</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img2.jpg"
                         alt="Борьба за мяч в баскетболе"
@@ -63,8 +76,10 @@
                         <h2 class="blocks-subtitle">Постер New Orlean vs Golden Star</h2>
                         <p class="blocks-text">Дизайн</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img3.jpg"
                         alt="Эмблема рыбного ресторана"
@@ -74,8 +89,10 @@
                         <h2 class="blocks-subtitle">Ресторан Seafood</h2>
                         <p class="blocks-text">Приложение</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img4.jpg"
                         alt="Черные наушники"
@@ -85,8 +102,10 @@
                         <h2 class="blocks-subtitle">Проект Prime</h2>
                         <p class="blocks-text">Маркетинг</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img5.jpg"
                         alt="Картонные коробки"
@@ -96,8 +115,10 @@
                         <h2 class="blocks-subtitle">Проект Boxes</h2>
                         <p class="blocks-text">Приложение</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img6.jpg"
                         alt="Монитор"
@@ -107,8 +128,10 @@
                         <h2 class="blocks-subtitle">Inspiration has no Borders</h2>
                         <p class="blocks-text">Веб-сайт</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img7.jpg"
                         alt="Открытый журнал"
@@ -118,8 +141,10 @@
                         <h2 class="blocks-subtitle">Издание Limited Edition</h2>
                         <p class="blocks-text">Дизайн</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img8.jpg"
                         alt="Бирка на шнурке"
@@ -129,8 +154,10 @@
                         <h2 class="blocks-subtitle">Проект LAB</h2>
                         <p class="blocks-text">Маркетинг</p>
                         </div>
+                    </a>
                     </li>
                     <li class="item-blocks">
+                        <a href="" class="blocks-link">
                         <img class="img-blocks"
                         src="./img/img9.jpg"
                         alt="Открытый ноутбук"
@@ -140,6 +167,7 @@
                         <h2 class="blocks-subtitle">Growing Business</h2>
                         <p class="blocks-text">Приложение</p>
                         </div>
+                    </a>
                     </li>
                 </ul>
                 </div>
@@ -147,19 +175,55 @@
         </main>
 
         <footer class="page-footer">
-            <div class="container">
-            <a lang="en" href="./index.html" class="footer-logo"><span class="blue-logo">Web</span>Studio</a>
-            <address>
+            <div class="container coordinates">
+                <div class="coordinates-logo">
+            <a class="footer-logo" lang="en" href="./index.html"  ><span class="blue-logo">Web</span>Studio</a>
+                <address>
                 <ul class="footer-list list">
-                    <li>
+                    <li class="footer-item">
                         <a href="https://goo.gl/maps/oU3ELZJm1vPTob157"
                            target="_blank"
                            rel="noopener noreferrer nofollow" class="link address">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
-                    <li><a href="mailto:info@example.com" class="mail link">info@example.com</a></li>
-                    <li><a href="tel:+380991111111" class="tel link">+38 099 111 11 11</a></li>
+                    <li class="footer-item"><a href="mailto:info@example.com" class="mail link">info@example.com</a></li>
+                    <li class="footer-item"><a href="tel:+380991111111" class="tel link">+38 099 111 11 11</a></li>
                 </ul>
-            </address>
+                </address>
+                </div>
+
+            <div class="coordinates-soc">
+                <h3 class="footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                <ul class="footer-soc list">
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link">
+                        <svg class="footer-soc-icon" weight="20" height="20">
+                         <use href="./img/icons.svg#icon-instagram-1"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link">
+                        <svg class="footer-soc-icon" weight="20" height="20">
+                         <use href="./img/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link">
+                        <svg class="footer-soc-icon" weight="20" height="20">
+                         <use href="./img/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link">
+                        <svg class="footer-soc-icon" weight="20" height="20">
+                         <use href="./img/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         </footer>
     
